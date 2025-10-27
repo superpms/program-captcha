@@ -1,0 +1,27 @@
+{
+    "name": "superpms/program-captcha",
+    "description": "pms captcha program",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [
+            "bin/autoload.php"
+        ],
+        "psr-4": {
+            "pms\\": "src/pms/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guest",
+            "email": "kid666@88.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "ext-openssl": "*"
+    }
+}

@@ -8,10 +8,7 @@ use pms\program\captcha\CaptchaConfig;
  */
 function captcha(array|CaptchaConfig $config = []): array
 {
-    if (empty($config)) {
-        return \pms\facade\Captcha::create();
-    }
-    return (new \pms\program\captcha\Driver())->setConfig($config)->create();
+    return captcha_scope("", $config);
 }
 
 /**

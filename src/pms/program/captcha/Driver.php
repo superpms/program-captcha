@@ -4,7 +4,6 @@ namespace pms\program\captcha;
 
 use Closure;
 use GdImage;
-use pms\facade\RDb;
 
 class Driver
 {

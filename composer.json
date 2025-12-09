@@ -26,5 +26,12 @@
     },
     "require-dev": {
         "superpms/basic": "^1.0.0"
+    },
+    "extra": {
+        "pms": {
+            "config":{
+                "captcha": "resource/config.php"
+            }
+        }
     }
 }
